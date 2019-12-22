@@ -1,0 +1,76 @@
+h3{
+  margin: 1rem 0;
+}
+
+p{
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.title-text{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-left:  2rem;
+  padding: 6rem 0 3rem;
+}
+
+.download-button{
+  padding: .5rem;
+  margin: 2rem;
+}
+
+.title-image{
+  height: 70%;
+  margin: 7rem 0 0 6rem;
+  transform: rotate(25deg);
+}
+
+#features{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.feature{
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.icon{
+  color: red;
+}
+
+.icon:hover{
+  color: black;
+}
+
+#testimonials{
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text{
+  padding: 6rem 8rem 4rem 8rem;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  height: 6rem;
+  padding: 1rem;
+}
+
+#press{
+  text-align:center;
+  margin-bottom: : 3rem;
+}
+
+.press-image{
+  height: 2.5rem;
+  margin: 3rem 1rem 2rem 1rem;
+}
