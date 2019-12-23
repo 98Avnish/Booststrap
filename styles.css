@@ -1,0 +1,152 @@
+/* h2{
+  text-align: center;
+} */
+
+p{
+  width: 60%;
+  font-weight: lighter;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+/* .navbar{
+  position: fixed;
+} */
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 .5rem 0;
+}
+
+.nav-item{
+  color-weight: lighter;
+}
+
+.title-text{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-left:  3rem;
+  padding: 6rem 0 3rem;
+}
+
+.download-button{
+  padding: .5rem;
+  margin-left: 3rem;
+}
+
+/* .img-container{
+  align-items: center;
+} */
+
+.title-image{
+  height: 60%;
+  margin: 6rem 12rem 0 8rem;
+  transform: rotate(25deg);
+  z-index: -1;
+}
+
+/* .space{
+  background-color: black;
+  margin-bottom: 0;
+  height: 50px;
+} */
+
+#features{
+  margin: 2rem;
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.feature{
+  padding: 0;
+}
+
+.feature-heading{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.icon{
+  color: red;
+  margin: 1rem 0;
+}
+
+.icon:hover{
+  color: black;
+}
+
+#testimonials{
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text{
+  padding: 6rem 8rem 4rem 8rem;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  height: 6rem;
+  padding: 1rem;
+}
+
+#press{
+  margin: 2rem;
+  text-align:center;
+  margin-bottom: : 3rem;
+}
+
+.press-image{
+  height: 2.5rem;
+  margin: 3rem 1rem 2rem 1rem;
+}
+
+.pricing-header{
+  margin: 3rem 0;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card{
+  margin: 3rem;
+  text-align: center;
+  font-weight: bold;
+  border-color: black;
+}
+
+.card-header{
+  padding: 1rem;
+  background-color: red;
+  color: white;
+}
+
+.card-button{
+  margin: 8px;
+}
+
+#cta{
+  margin: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.footer{
+  color: white;
+  padding: 2rem 5rem .5rem;
+}
+
+.footer-button{
+  padding: 0 5rem ;
+  margin:  1rem 2rem 2rem 2rem;
+}
+
+#footer{
+  color: white;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: lighter;
+  padding: 1rem;
+}
