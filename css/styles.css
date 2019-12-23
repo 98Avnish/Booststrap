@@ -20,7 +20,7 @@ p{
 }
 
 .nav-item{
-  color-weight: lighter;
+  font-weight: lighter;
 }
 
 .title-text{
@@ -97,7 +97,7 @@ p{
 
 #press{
   text-align:center;
-  margin-bottom: : 3rem;
+  margin-bottom: 3rem;
 }
 
 .press-image{
@@ -105,21 +105,26 @@ p{
   margin: 3rem 1rem 2rem 1rem;
 }
 
+#pricing{
+  margin: 1rem;
+}
+
 .pricing-header{
-  margin: 3rem 0;
+  margin: 4rem 0;
+  padding: 1rem 0 0;
   text-align: center;
   font-weight: bolder;
 }
 
-.card{
-  margin: 3rem;
+.card-column{
+  /* margin: 1rem; */
   text-align: center;
   font-weight: bold;
   border-color: black;
 }
 
 .card-header{
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color: red;
   color: white;
 }
@@ -149,4 +154,19 @@ p{
   font-size: .8rem;
   font-weight: lighter;
   padding: 1rem;
+}
+
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-text{
+    margin: 0;
+  }
+  .title-image{
+    margin:3rem auto 0;
+    height: 75%;
+    position: static;
+    transform: rotate(0);
+  }
 }
