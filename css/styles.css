@@ -34,6 +34,7 @@ p{
 .download-button{
   padding: .5rem;
   margin-left: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* .img-container{
@@ -41,9 +42,10 @@ p{
 } */
 
 .title-image{
-  height: 60%;
-  margin: 6rem 12rem 0 8rem;
+  height: 100%;
+  margin: 6rem 12rem 3rem 8rem;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* .space{
@@ -55,7 +57,9 @@ p{
 #features{
   background-color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 }
 
 .feature{
